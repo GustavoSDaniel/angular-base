@@ -1,0 +1,22 @@
+# Dependências
+/node_modules
+
+# Ambiente
+/.angular/cache
+/dist
+
+# Logs e databases
+npm-debug.log
+yarn-error.log
+
+# IDEs e editores
+/.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos de ambiente
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
