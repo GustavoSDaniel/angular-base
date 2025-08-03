@@ -1,19 +1,21 @@
-.card {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&family=Roboto+Mono:wght@100&display=swap');
+
+.card-azul {
     max-width: 350px;
-    background-color: #fd7557;
+    background-color: #e1f0ff;
     border-radius: 25px;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
 
-    &__item {
+    .card__item {
         padding: 10px;
     }
 
-    &__plan {
+    .card__plan {
         font-size: 22px;
     }
 
-    &__price {
+    .card__price {
         font-weight: 600;
         font-size: 40px;
     }
