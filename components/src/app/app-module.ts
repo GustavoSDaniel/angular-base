@@ -3,23 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
-import { Card } from './card/card';
-import { CardAzul } from './card-azul/card-azul';
-import { CardButton } from './card-button/card-button';
-import { CardAzulButton } from './card-azul-button/card-azul-button';
+import { CardsModule } from './cards/cards-module';
 
 
 @NgModule({
   declarations: [
     App,
-    Card,
-    CardAzul,
-    CardButton,
-    CardAzulButton,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CardsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()
