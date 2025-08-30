@@ -16,4 +16,4 @@ Este repositório documenta minha jornada de aprendizado dos conceitos fundament
 
     HTTP Client: Consumindo APIs REST
 
-    RxJS: Trabalhando com Observables e operadores)
+    
